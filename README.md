@@ -1,89 +1,97 @@
 <div align="center">
 
-# ⚡ Algorithm & Physics Visualizer
+# ⚡ Algorithm & Physics Visualizer 🚀
 
-**Watch algorithms think and physics move, live in your browser.**
+<p align="center">
+  <b>Watch algorithms think and physics move, live in your browser.</b>
+</p>
 
-An interactive, ultra-lightweight, and visually stunning web application built with pure **Vanilla JavaScript** and **HTML5 Canvas**. Learn and explore core computer science algorithms and dynamic physics simulations through real-time animations.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Canvas-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/CSS3-Glassmorphism-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" />
+</p>
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Preview-100000?style=for-the-badge&logo=github&logoColor=white)](https://asd-cuber521.github.io/algorithm-physics-visualizer/)
-[![HTML5 Canvas](https://img.shields.io/badge/HTML5-Canvas-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#)
+<p align="center">
+  <a href="https://asdprogrammer521.github.io/Algorithm-Physics-Visualizer/" target="_blank">🌐 Live Demo</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-interactive-modules">Modules</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-author">Author</a>
+</p>
 
 ---
 
 </div>
 
-## 🌟 Highlights & Features
+## 📌 Overview
 
-### 📊 1. Sorting Algorithms
-Visualize step-by-step array operations with realtime speed and array size adjustments.
-- **Algorithms:** `Bubble Sort` • `Insertion Sort` • `Quick Sort` • `Merge Sort`
-- **Dynamic Control:** Adjust array size from $5$ to $150$ elements dynamically.
-- **Interactive Tuning:** Control simulation speed from $1\times$ to $100\times$.
-- **Glow Color Cues:** Visual color highlights for active comparisons, swaps, and completed states.
+**Algorithm & Physics Visualizer** is a high-performance, lightweight, and modern web application built completely with **Vanilla JavaScript** and **HTML5 Canvas**. It bridges the gap between abstract computer science concepts and tangible physics laws by rendering them into smooth, interactive, real-time visual animations.
 
 ---
 
-### 🗺️ 2. Pathfinding Visualizer
-Explore how classic graph search algorithms find the shortest path through obstacles.
-- **Algorithms:** `Breadth-First Search (BFS)` • `Depth-First Search (DFS)` • `Dijkstra's` • `A* (A-Star)`
-- **Custom Interactive Grid:** Click & drag to draw or erase custom wall barriers on the fly.
-- **Obstacle Generator:** Instant random wall generation.
+## 🎨 Core Features
+
+- ✨ **Dynamic Glassmorphic UI:** Modern frosted-glass design featuring smooth animations, responsive layout, and glowing neon accents.
+- 🌓 **Adaptive Themes:** Fully integrated automatic Dark/Light mode depending on system preferences.
+- 🖱️ **Interactive Canvas Background:** Ambient mouse-tracking particle network that reacts to cursor movements.
+- 📱 **Fully Responsive:** Optimized for both desktop and mobile touch devices with native pointer controls.
 
 ---
 
-### 🎯 3. Real-Time Physics Engines
-Simulate dynamic physics with live real-world calculations displayed on screen.
-- **Projectile Motion:**
-  - Control angle $\theta$, launch velocity $v$, and gravity $g$.
-  - Real-time output of Time of Flight ($T$), Max Height ($H$), and Range ($R$).
-- **Simple Pendulum:**
-  - Adjust length $L$, initial displacement angle, and gravity $g$.
-  - Automatic period calculation ($T = 2\pi\sqrt{\frac{L}{g}}$).
-- **Elastic Ball Collisions (2D):**
-  - Simulate multiple bodies with mass, gravity, adjustable restitution coefficient ($e$), and sub-step collision handling.
+## 🧩 Interactive Modules
+
+### 1. 📊 Sorting Visualizer
+* **Algorithms:** `Bubble Sort` • `Insertion Sort` • `Quick Sort` • `Merge Sort`
+* **Controls:** Real-time array size slider ($5$ to $150$ elements) and speed control.
+* **Visuals:** Dynamic color gradients and glow highlights tracking element swaps and sorting completion.
+
+### 2. 🗺️ Pathfinding Visualizer
+* **Algorithms:** `Breadth-First Search (BFS)` • `Depth-First Search (DFS)` • `Dijkstra's` • `A* (A-Star)`
+* **Interactive Grid:** Click and drag directly on the canvas to draw or erase custom walls.
+* **Tools:** Quick random obstacle generation and instant grid clearing.
+
+### 3. ⚛️ Physics Simulations
+* **Simulations:** Projectile Motion, Simple Pendulum, and Elastic 2D Ball Collisions.
+* **Custom Parameters:** Fine-tune launch angles ($\theta$), velocities ($v$), gravitational acceleration ($g$), string lengths ($L$), ball counts, and surface restitution on the fly.
+* **Live Metrics:** Real-time calculations displaying flight time, range, max height, and pendulum oscillation periods ($T = 2\pi\sqrt{\frac{L}{g}}$).
 
 ---
 
-## 🎨 UI & Performance Focus
+## 🛠️ Tech Stack
 
-* 💎 **Zero Dependencies:** Pure Vanilla HTML5 Canvas + JavaScript. No heavy libraries, instant load times.
-* 🌌 **Modern Ambient UI:** Sleek glassmorphism controls, modern typography, and ambient dark/light adaptive gradients.
-* ⚡ **Interactive Background:** High-performance background particle constellation reacting dynamically to your mouse cursor.
-* 📱 **Fully Responsive:** Smooth touch & mouse drag interactions adapted across mobile, tablet, and desktop screens.
+* **Markup & Structure:** HTML5 (Semantic elements & Canvas API)
+* **Styling & Effects:** CSS3 (CSS Variables, Grid, Flexbox, Backdrop Filter, Custom Keyframes)
+* **Logic & Rendering:** Vanilla JavaScript (ES6+, Generators, 2D Context Rendering)
 
 ---
 
 ## 🚀 Quick Start
 
-Since this project uses no external build tools or frameworks, running it is completely friction-free!
+No complex build steps, package managers, or installations are required!
 
-### Option 1: Direct File Launch
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ASD-Cuber521/algorithm-physics-visualizer.git
+   git clone https://github.com/asdprogrammer521/Algorithm-Physics-Visualizer.git
    ```
-2. Open `Algorithm & Physics Visualizer.html` in any web browser.
-
-### Option 2: Live Server (VS Code)
-1. Open the repository folder in VS Code.
-2. Click **Go Live** via the Live Server extension.
+2. **Navigate to the project folder:**
+   ```bash
+   cd Algorithm-Physics-Visualizer
+   ```
+3. **Launch:**
+   Open `index.html` directly in any modern web browser (or run via **Live Server** in VS Code).
 
 ---
 
-## 🛠️ Built With
+## 💡 How to Use
 
-* **Markup & Structure:** HTML5
-* **Styling & Theme:** Modern CSS3 (Variables, Ambient Blur, Grid, Animations, Flexbox)
-* **Rendering Engine:** HTML5 2D Canvas API
-* **Language:** Vanilla JavaScript (ES6+ Generators & Iterators for step-by-step algorithm stepping)
+1. Select your desired module from the top navigation tabs (**Sorting**, **Pathfinding**, or **Physics**).
+2. Adjust the parameters (speed, size, algorithm type, or physics variables) using the interactive control panel.
+3. Click **Start** to run the visualization, or interact directly with the canvas (e.g., drawing walls in the Pathfinding tab).
 
 ---
 
 ## 👨‍💻 Author
 
-Crafted with ♥ by **[ASDcuber521](https://github.com/ASD-Cuber521)**
-
-*If you found this project helpful or cool, feel free to give it a ⭐️!*
+Crafted with ♥ by [**asdprogrammer521**](https://github.com/asdprogrammer521)
